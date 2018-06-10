@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html{
+    background-color: rgb(12, 139, 108)
+}
+h1, h2{
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    padding: 20px auto;
+}
+.container{
+    background-color: #e2e6f5;
+    margin: 30px 20%;
+}
+.details{
+    margin-left:auto;
+    text-align: center;
+    margin-right: auto;
+}
+textarea{
+    height:100px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#button{
+    margin-left:80%;
+    margin-bottom: 20px;
+    padding:10px 15px;
+    right: 10px;
+
+}
