@@ -20,19 +20,19 @@ class PersonDetails extends Component{
                 <div className="details">
 
                   <div className="moveLeft">
-                    <label htmlFor="name">Name: </label></div>
+                    <label id="name-label" htmlFor="name">Name: </label></div>
                   <div className="moveRight">
-                    <input id="name" type="text" placeholder={this.props.info.name} onChange={this.handleChange}/> </div>
+                    <input id="name" type="text" placeholder="Enter your fullname" onChange={this.handleChange}/> </div>
 
                   <div className="moveLeft">
-                    <label htmlFor="age">Age: </label></div>
+                    <label id="age-label"htmlFor="age">Age: </label></div>
                   <div className="moveRight">
-                    <input id="age" type="number" placeholder={this.props.info.age}/></div>
+                    <input id="age" type="number" pattern="/[0-9]/" max="100" min="13" placeholder="13+"/></div>
 
                   <div className="moveLeft">
-                    <label htmlFor="email"> Email:</label></div>
+                    <label id="email-label" htmlFor="email"> Email:</label></div>
                   <div className="moveRight">
-                    <input id="email" type="email" placeholder={this.props.info.email}/></div>
+                    <input id="email" type="email" placeholder="Enter your email..."/></div>
 
                 </div>
             </div>

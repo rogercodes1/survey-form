@@ -14,7 +14,7 @@ class Comments extends Component{
             <div>
                 <h2>Comments</h2>
                 <div className="details">
-                  <div><label htmlFor="comments">Any comments or Suggestions?
+                  <div><label id="anyComments" htmlFor="comments">Any comments or Suggestions?
                   </label>
                     </div>
                     <div><textarea id="comments" name="comments" placeholder="Show us some love">

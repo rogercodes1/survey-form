@@ -11,9 +11,9 @@ class FavoriteFood extends Component{
     }
     render() {
         return (
-            <div className="details">
+            <div className="">
               <h2>Favorite Food</h2>
-              <div>
+              <div id="foodOptions">
 
                   <input type="checkbox" name="foods" value="Ramen"/>Ramen <br/>
                   <input type="checkbox" name="foods" value="Pizza"/>Pizza<br/>

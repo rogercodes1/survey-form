@@ -1,10 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Raleway', Helvetica, sans-serif;
 }
 html{
-    background-color: rgb(12, 139, 108)
+    background-color: #3e5b8c;
 }
 h1, h2{
     text-align: center;
@@ -27,11 +29,35 @@ textarea{
     width: 150px;
     margin-bottom: 20px;
 }
+#description{
+    text-align: center;
+    margin-top: 20px;
+    padding-top:20px;
+}
 
-#button{
+#submit{
     margin-left:80%;
     margin-bottom: 20px;
     padding:10px 15px;
+    height: 50px;
     right: 10px;
 
+}
+#anyComments{
+    margin-bottom:20px;
+    padding-bottom:20px;
+
+}
+#foodOptions{
+    margin-left: 40%;
+}
+input{
+    text-align: left;
+}
+
+input:valid {
+  background-color: ;
+}
+input:invalid {
+  background-color: pink;
 }

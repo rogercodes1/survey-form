@@ -3,6 +3,9 @@ import React, {Component} from 'react'
 import PersonDetails from "./person-details.js";
 import Comments from './comments';
 import FavoriteFood from './favorite-food';
+import FavoriteCity from './favorite-city';
+import RadioOption from './radio-option';
+
 
 class SurveyContainer extends Component{
      constructor(){
@@ -24,13 +27,16 @@ class SurveyContainer extends Component{
     render() {
         return (
             <div className="container">
-              <h2>Please provide some Feedback?</h2>
+              <p id="description">Please provide some Feedback?</p>
 
-              <form action="">
+              <form id="survey-form" action="">
                 <PersonDetails people={this.handleDetails} info={this.state}/>
                 <FavoriteFood />
+                <FavoriteCity />
+                <RadioOption />
                 <Comments />
-                <input id="button" type="submit" onClick={this.handleClick}/>
+                <input id="submit" type="submit" onClick={this.handleClick}/>
+
                 </form>
             </div>
         );
